@@ -1,0 +1,19 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "portfolio",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass --watch src/sass -o src/css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "fs-utils": "^0.7.0",
+    "node": "^19.8.1",
+    "node-sass": "^8.0.0",
+    "sass": "^1.60.0"
+  }
+}
