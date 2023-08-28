@@ -2,10 +2,6 @@
 // continue animation after the hover
 
 const animatedLetters = document.querySelectorAll(".animated");
-console.log(typeof animatedLetters);
-console.log(animatedLetters.length);
-
-// console.log(animatedLetters);
 
 animatedLetters.forEach((element) => {
     element.addEventListener("mouseover", (e) => bounce(e.target));
