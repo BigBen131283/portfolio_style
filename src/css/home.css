@@ -120,8 +120,11 @@ body {
     font-family: "Raleway";
     min-height: 100vh; }
     body header .hero-section {
+      padding: 0 0 0 13rem;
       width: 100%;
-      margin: 0 0 0 13rem; }
+      height: 100vh;
+      display: flex;
+      flex-direction: column; }
       body header .hero-section .decor {
         font-family: "Dancing Script";
         font-size: 1.625rem;
@@ -132,10 +135,7 @@ body {
         body header .hero-section .decor:nth-child(2) {
           padding: 0px 0px 5px 30px; }
       body header .hero-section .title {
-        position: absolute;
-        top: 40%;
-        transform: translateY(-50%);
-        margin-left: 60px; }
+        margin: auto 0 auto 60px; }
         body header .hero-section .title .decor {
           padding-left: 10px; }
           body header .hero-section .title .decor:nth-child(1) {
@@ -169,3 +169,10 @@ body {
           color: #45dea5;
           text-decoration: none;
           border: solid 2px #45dea5; }
+      body header .hero-section .closing {
+        margin: 0 0 0 60px;
+        padding: 0 80px 20px 0;
+        display: inline-block;
+        align-self: flex-end; }
+  body main {
+    padding: 0 0 0 13rem; }
